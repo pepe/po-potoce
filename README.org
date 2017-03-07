@@ -1,0 +1,9 @@
+# Po popotoce
+
+My talk about how I got to understand reactive streams through C# and moved that
+knowledge to ClojureScript.
+
+* Story
+** C#
+** ClojureScript
+*** potok
