@@ -1,5 +1,8 @@
 * Po potoce
 
+Indirect tactics, efficiently applied, are inexhaustible as Heaven and Earth,
+unending as the flow of rivers and streams
+
 My talk about how I got to understand reactive streams through C# and moved that
 knowledge to ClojureScript.
 
@@ -18,6 +21,16 @@ knowledge to ClojureScript.
 **** New start with ReactiveX
 ***** Timer loop based checks
 ***** Subscribing to only right info through LINQ
-***** Final aplications only couple of lines, mostly config
+***** Library with fully tested code
+***** Final aplications is only couple of lines, mostly config and orchestration
 *** ClojureScript
-**** potok
+**** Showrum
+***** Simple markdown presentations
+***** More decks
+**** Maps&functions
+***** Unbeareable after while
+***** Too much checks and conditions
+**** Potok
+***** Reactive streams
+***** Sister lib beicon - wraper of RX.js
+***** Czech word means stream of water
