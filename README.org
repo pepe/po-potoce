@@ -1,9 +1,23 @@
-# Po popotoce
+* Po potoce
 
 My talk about how I got to understand reactive streams through C# and moved that
 knowledge to ClojureScript.
 
-* Story
-** C#
-** ClojureScript
-*** potok
+** Story
+*** C#
+**** Long running problem with deployment/watchdog/heartbeat SW
+***** Interprocess communication
+***** Helper processes
+***** Several KLs of code
+***** Creator is on parental leave
+**** Rewrite in same spirit, just leave out what is not needed anymore
+***** Big chunks of code just copied
+***** Same architectur
+***** Programmer got ill
+***** I took over and wanted to test it
+**** New start with ReactiveX
+***** Timer loop based checks
+***** Subscribing to only right info through LINQ
+***** Final aplications only couple of lines, mostly config
+*** ClojureScript
+**** potok
