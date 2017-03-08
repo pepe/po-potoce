@@ -14,19 +14,19 @@ date: 2017-02-20
 title: Childhood
 ---
 
-## Going by the streams
+# Going by the streams
 
 ---
 
-## Stones and ice
+# Stones and ice
 
 ---
 
-## Banks
+# Banks
 
 ---
 
-## Hidden places
+# Hidden places
 
 ===
 
@@ -47,6 +47,7 @@ title: C#
 * Several KLs of code
 * Creator is on parental leave
 
+---
 
 ## 1st Rewrite
 
@@ -54,6 +55,8 @@ title: C#
 * Same architecture
 * Programmer got ill
 * I took over and wanted to test it
+
+---
 
 ## My Rewrite
 
