@@ -7,7 +7,7 @@ My talk about how I got to understand reactive streams through C# and moved that
 knowledge to ClojureScript. Just to have my notion of programming changed
 forever.
 
-** Story
+** TODO Story
 *** Childhood
 **** Going by the streams
 **** Using stones and ice in the winter as path
@@ -50,19 +50,19 @@ forever.
 **** It's just queque
 **** You can stream too
 **** IOT
-** Proposal
+** TODO Proposal
 *** https://eventil.com/events/polyconf-17/submissions/new
 *** Abstract
-Story of how work in C# I didn't liked, brought my attention to reactive streams
+Story of how work in C# I didn't like, brought my attention to reactive streams
 which I transplanted to ClojureScript work I love (Polyglot you see ;-). And I
 will try to convince you both that ClojureScript is lovely and even better with
 reactive streams.
-
-But the story starts in my childhood in the mountain area of the north bohemia,
-where we were going by the streams and ends with what I see as the new beginning
-for my attitude to programming.
 *** Private abstract
 The main thing is to show reactive streams and how to use them on the web, but
 side themes lies in how we are actually modeling after the nature, and how
 mental transfer between not really similar languages, can lead to great benefit
 of the creator.
+
+But the story starts in my childhood in the mountain area of the north bohemia,
+where we were going by the streams and ends with what I see as the new beginning
+for my attitude to programming.
