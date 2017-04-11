@@ -1,67 +1,163 @@
 ---
 author: Josef Pospíšil
-date: 2017-02-20
+date: 2017-04-12
 title: Intro
 ---
 
-# Po potoce - By the Stream
+# Po Potoce ~~~
 
 ===
 
 ---
 author: Josef Pospíšil
-date: 2017-02-20
-title: Childhood
+date: 2017-04-12
+title: Dětství
 ---
 
-# Going by the streams
-
----
-
-# Stones and ice
+## Chození na potok
 
 ---
 
-# Banks
+## Kameny a led
 
 ---
 
-# Hidden places
+## Břehy
+
+---
+
+## Skrytá místa
 
 ===
 
 ---
 author: Josef Pospíšil
-date: 2017-02-20
+date: 2017-04-12
+title: Reactive Streams
+---
+
+## Reactive Streams
+
+* Existuje více specifikací
+* Asynchroní zpracování
+* http://reactivex.io
+
+---
+
+## Rx
+
+* Vytvoř
+* Kombinuj
+* Naslouchej
+
+===
+
+---
+author: Josef Pospíšil
+date: 2017-04-12
 title: C#
----
-
-# C#
-
 ---
 
 ## Problem
 
-* Interprocess communications
-* Helper processes
-* Several KLs of code
-* Creator is on parental leave
+* KLs kódu
+* Meziprocesová komunikace
+* Tvůrce na rodičovské
 
 ---
 
-## 1st Rewrite
+## První přepis
 
-* Big chunks of code just copied
-* Same architecture
-* Programmer got ill
-* I took over and wanted to test it
+* Velké kusy jen zkopírovány
+* Stejná architektura
+* Tvůrce onemocněl
 
 ---
 
-## My Rewrite
+## Můj přepis
 
-* Timer loop based checks
-* Subscribing through LINQ
-* Library with fully tested code
-* Only couple of lines
-* Mostly config and orchestration
+* Rx.Net
+* Časová smyčka pro kontroly
+* Subskribce přes LINQ
+
+---
+
+## Výsledek
+
+* Plně testovaná knihovna
+* Aplikace jen pár řádku
+* Převážně konfigurace
+* Případně UI
+
+---
+
+## Ale hlavně ...
+
+---
+
+## ... jsem Reaktivní!
+
+===
+
+---
+author: Josef Pospíšil
+date: 2017-04-12
+title: ClojureScript
+---
+
+# ClojureScript <3
+
+---
+
+## Polyconf 2014
+
+* Zach Telman
+* David Nolen
+* Alexander Solovyov
+
+---
+
+## Stack
+
+* Tenzing - Šablona
+* Rum - React.js wrapper
+* Potok - Rx.js wrapper
+
+---
+
+## Chromium Tools
+
+* Tonda Hildebrandt
+* cljs-devtools
+* Dirac
+
+---
+
+## Ukaž KÓD!
+
+```
+(deftype IncStream
+  ptk/UpdateEvent
+  (update [_ state]
+    (update state :stream/vol inc)))
+
+(potok.core/emit! store IncStream)
+```
+
+---
+
+## Potok
+
+* 100 LOC
+* Tři typy událostí
+
+## Potok Rumu
+
+* Anatomie
+* Tests
+* spec
+
+---
+
+## Živé kódování
+
