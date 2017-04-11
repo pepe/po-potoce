@@ -136,7 +136,7 @@ title: ClojureScript
 ## Ukaž KÓD!
 
 ```
-(deftype IncStream
+(defrecord IncStream
   ptk/UpdateEvent
   (update [_ state]
     (update state :stream/vol inc)))
@@ -150,12 +150,23 @@ title: ClojureScript
 
 * 100 LOC
 * Tři typy událostí
+* Materializovatelný stav
+
+---
 
 ## Potok Rumu
 
 * Anatomie
 * Tests
 * spec
+
+---
+
+## Showrum
+
+---
+
+## LastStar
 
 ---
 
